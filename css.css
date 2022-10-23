@@ -1,0 +1,24 @@
+@font-face {
+    font-family: first;
+    src: url(font.otf);
+}
+
+body {
+    font-family: 'first';
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+a {
+    padding: 2vh 5vh;
+    border-radius: 100vh;
+    border: none;
+    background-color: green;
+    color: white;
+    font-family: 'first';
+    text-decoration: none;
+}
